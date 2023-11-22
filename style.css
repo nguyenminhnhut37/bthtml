@@ -1,0 +1,175 @@
+body{
+    font-family: arial;
+}
+.logo{
+    text-align: center;
+}
+.sectionnavbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 0 100px 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navitem{
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+.navitem a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navitem a:hover{
+    color: #921c1a;
+}
+.boxblack{
+    background-color: #921c1a;
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+.magrintopspace{
+    padding-top: 30px;
+}
+.middle{
+    color: black;
+    display: block;
+}
+.headermid{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+h2{
+    padding: 0 200px;
+    text-align: left;
+    font-size: 16px;
+}
+h3{
+    text-align: center;
+}
+.blocktitle{
+    background-color:darkgrey;
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.colum1{
+    float: left;
+    width: 32%;
+    margin: 5px;
+}
+.imgnew1{
+    width: 100%;
+    object-fit: cover;
+}
+.newshort{
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+div{
+    display: block;
+}
+footer{
+    background-color:gainsboro;
+}
+.navfooter{
+    overflow: hidden;
+    background-color:gainsboro;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.navfooter a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    align-items: center;
+}
+nav{
+    text-align: center;
+    height: 40px;
+}
+nav a:hover{
+    color: #921c1a;
+}
+.menufooter{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.columfooter1{
+    width: 20%;
+}
+.menuul{
+    padding: 0px 5px;
+}
+.menumini{
+    overflow: hidden;
+    text-align: center;
+}
+.menumini a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding-top: 8px;
+}
+.menumini a:hover{
+    color: #921c1a;
+}
+.copyright{
+    background-color: white;
+    width: 100%;
+}
+.redline{
+    background-color: #921c1a;
+    width: 100%;
+    height: 10px;
+    margin: 10px;
+}
+.logofooter{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.footerinfo{
+    width: 100%;
+    margin: 10px;
+}
+.textcopyright{
+    margin: 10px;
+}
+.textcopyright a{
+    color: #921c1a;
+    text-decoration: none;
+}
+.text-red{
+    color: #921c1a;
+}
+.colum1 a{
+    color: black;
+    text-decoration: none;
+}
+.colum1 a:hover{
+    color: #921c1a;
+}
